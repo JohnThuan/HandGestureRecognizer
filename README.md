@@ -203,12 +203,6 @@ pyinstaller --onefile --add-data "assets:assets" main.py
 
 MIT License
 
-## Download MediaPipe Model
-
-Download the gesture recognizer model from:
-https://storage.googleapis.com/mediapipe-models/gesture_recognizer/gesture_recognizer/float16/1/gesture_recognizer.task
-
-Place it in the `assets/` folder before running the application.
 
 ## System Requirements
 
