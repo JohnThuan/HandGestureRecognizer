@@ -5,21 +5,8 @@ A real-time hand gesture recognition system that detects hand gestures using you
 ## Features
 
 - **Real-time Hand Tracking**: Detects up to 2 hands simultaneously
-- **Gesture Recognition**: Recognizes multiple hand gestures including:
-  - 👆 Pointing Up (displays nerd emoji)
-  - 👍 Thumbs Up (displays thumbs up emoji)
-  - 👎 Thumbs Down (displays thumbs down emoji)
-  - 🤘 Fours (custom gesture detection)
-  - 🙈 Shy (hands covering face - requires both hands)
-  - Default: Mog emoji
-- **Live Visualization**: Dual window display showing camera feed with hand landmarks and emoji output
-- **Hand Landmark Drawing**: Visual feedback with hand skeleton overlay
+- **Gesture Recognition**: Recognizes multiple hand gestures 
 
-## Screenshots
-
-<p align="center">
-  <img src="screenshots/gesture-demo.png" width="600" alt="Gesture Recognition Demo" />
-</p>
 
 ## Technical Stack
 
@@ -28,7 +15,7 @@ A real-time hand gesture recognition system that detects hand gestures using you
 - **OpenCV (cv2)**: Real-time video capture and image processing
 - **NumPy**: Array operations and image manipulation
 
-## Requirements
+
 
 ### Dependencies
 
